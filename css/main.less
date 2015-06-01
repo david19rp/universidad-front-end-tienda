@@ -1,0 +1,131 @@
+
+// imports 
+
+@import "variables";
+@import "breakpoints";
+
+*{
+	color: @text;
+	h1,h2,h3,h4,h5,h6{
+		color: @titles;
+	}
+}
+
+body{
+	padding-top: 50px;
+}
+.main-container{
+	padding: 40px 15px;
+  	text-align: center;
+}
+
+// Main Nav 
+.navbar-inverse {
+    background-color: @brand;
+    border-color: @navfocus;
+
+    .navbar-brand {
+    	color: @white;
+    }
+    .navbar-nav {
+    	li{
+
+    		a{
+    			color: @white;
+    			&:focus, &:hover{
+    				background-color: @navfocus;
+    			}
+
+    		}
+    		
+    	}
+    	.active{
+    		background-color: @navfocus;
+    			a, a:focus, a:hover{
+    				background-color: @navfocus;
+    			}
+    		}
+    	.open{
+    			background-color: @navfocus;
+    		a{
+    			&:focus, &:hover{
+    				background-color: @navfocus;
+    			}
+    		}
+    	}	
+    	.dropdown{
+    		.caret{
+    			color: @white;
+    		}
+    		span{
+    			color: @white;
+    		}
+    		.dropdown-menu{
+    			li{
+    				a{
+	    				color: @text;
+	    				&:hover, &:focus{
+	    					color: @white;
+	    				}
+	    				@media @mobile {
+			      			color: @white;
+			   			}
+    				}
+    			}
+    			
+    		}	
+    	}	
+    	
+    }
+    .search{
+    	.form-control{
+    		@media @desktop, @desktop-xl {
+      			min-width: 300px;
+  		  	}
+  	
+    	}
+    }
+}
+
+// Jumbotron
+
+.jumbotron{
+	background: url("http://livedemo00.template-help.com/wt_52983/images/slider-bg.jpg") repeat scroll 7% 34% transparent;
+	.container{
+		h1,p{
+			color: white;
+		}
+	}
+}
+
+// categories 
+
+.categories{
+
+	.thumbnail{
+		img{
+			width: 100%;
+		}
+	}
+}
+
+
+//footer
+
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: @brand;
+	color:  @white;
+	p {
+		color:  @white;
+    	margin: 20px 0px;
+    	float: left;
+	}
+	.links{
+		float: right;
+		a{
+			color: @white;
+		}
+	}
+}
