@@ -1,0 +1,58 @@
+.secondarynav {
+    background-color: @navfocus;
+    border-color: @brand;
+
+    .navbar-brand {
+    	color: @white;
+    }
+    .navbar-nav {
+    	li{
+
+    		a{
+    			color: @white;
+    			&:focus, &:hover{
+    				background-color: @brand;
+    			}
+
+    		}
+    		
+    	}
+    	.active{
+    		background-color: @brand;
+    			a, a:focus, a:hover{
+    				background-color: @brand;
+    			}
+    		}
+    	.open{
+    			background-color: @brand;
+    		a{
+    			&:focus, &:hover{
+    				background-color: @brand;
+    			}
+    		}
+    	}	
+    	.dropdown{
+    		.caret{
+    			color: @white;
+    		}
+    		span{
+    			color: @white;
+    		}
+    		.dropdown-menu{
+    			li{
+    				a{
+	    				color: @text;
+	    				&:hover, &:focus{
+	    					color: @white;
+	    				}
+	    				@media @mobile {
+			      			color: @white;
+			   			}
+    				}
+    			}
+    			
+    		}	
+    	}	
+    	
+    }
+}

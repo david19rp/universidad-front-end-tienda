@@ -95,3 +95,53 @@ footer .links {
 footer .links a {
   color: #ffffff;
 }
+.product {
+  padding-top: 30px;
+}
+.secondarynav {
+  background-color: #1d61a5;
+  border-color: #2a72ba;
+}
+.secondarynav .navbar-brand {
+  color: #ffffff;
+}
+.secondarynav .navbar-nav li a {
+  color: #ffffff;
+}
+.secondarynav .navbar-nav li a:focus,
+.secondarynav .navbar-nav li a:hover {
+  background-color: #2a72ba;
+}
+.secondarynav .navbar-nav .active {
+  background-color: #2a72ba;
+}
+.secondarynav .navbar-nav .active a,
+.secondarynav .navbar-nav .active a:focus,
+.secondarynav .navbar-nav .active a:hover {
+  background-color: #2a72ba;
+}
+.secondarynav .navbar-nav .open {
+  background-color: #2a72ba;
+}
+.secondarynav .navbar-nav .open a:focus,
+.secondarynav .navbar-nav .open a:hover {
+  background-color: #2a72ba;
+}
+.secondarynav .navbar-nav .dropdown .caret {
+  color: #ffffff;
+}
+.secondarynav .navbar-nav .dropdown span {
+  color: #ffffff;
+}
+.secondarynav .navbar-nav .dropdown .dropdown-menu li a {
+  color: #606060;
+}
+.secondarynav .navbar-nav .dropdown .dropdown-menu li a:hover,
+.secondarynav .navbar-nav .dropdown .dropdown-menu li a:focus {
+  color: #ffffff;
+}
+@media only screen and (max-width: 529px) {
+  .secondarynav .navbar-nav .dropdown .dropdown-menu li a {
+    color: #ffffff;
+  }
+}
