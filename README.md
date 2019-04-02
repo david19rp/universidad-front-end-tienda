@@ -1,5 +1,5 @@
 
-## Front End - Proyecto Universidad Tienda##
+### Front End - Proyecto Universidad Tienda###
 
 Interfaz de una tienda basada en bootstrap, utilizando SASS.
 
